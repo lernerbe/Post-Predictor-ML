@@ -1,0 +1,209 @@
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+main
+sentiment_classifier
+classifier
+predictor
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+\#*#
+.*.swp
+.*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories
+build/
+Build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Makefile generated files
+*.d
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python (if any Python scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test output files
+test_output/
+*.test.out
+*.result
+*_test.out
+*_test.out.correct
+instructor_student.out.correct
+projects_exam.out.correct
+test_small.out.correct
+test_small_debug.out.correct
+
+# Test framework files
+*_tests.cpp
+*_compile_check.cpp
+*_public_test.cpp
+unit_test_framework.hpp
+
+# Instructor/assignment specific files
+w14-f15_instructor_student.csv
+w16_instructor_student.csv
+w16_projects_exam.csv
+sp16_projects_exam.csv
+
+# Large data files (uncomment if you have large datasets)
+# *.csv
+# data/
+# datasets/
+
+# Personal notes and TODO files
+notes.txt
+TODO.txt
+personal_notes.md
+
+# Local configuration files
+config.local
+settings.local
+
+# Profiling data
+*.prof
+gmon.out
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# Valgrind output
+valgrind-out.txt
+
+# Documentation build files
+docs/_build/
+site/
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Local development files
+local/
+dev/
+scratch/

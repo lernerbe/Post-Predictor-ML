@@ -1,5 +1,20 @@
 #ifndef BINARY_SEARCH_TREE_HPP
 #define BINARY_SEARCH_TREE_HPP
+/* BinarySearchTree.hpp
+ *
+ * Abstract data type representing a binary search tree
+ * Project UID db1f506d06d84ab787baf250c265e24e
+ *
+ * By Andrew DeOrio <awdeorio@umich.edu>
+ *    Amir Kamil    <akamil@umich.edu>
+ *    James Juett   <jjuett@umich.edu>
+ * Updated
+ *   2017-05-01
+ *
+ * DO NOT CHANGE any of the implementations in this file that are
+ * provided with the starter code. Only fill in implementations
+ * for the private static member functions as directed.
+ */
 
 #include <cassert>  //assert
 #include <iostream> //ostream
@@ -494,7 +509,9 @@ private:
 
      // Check the sorting invariant for the current node
     if ((node->left != nullptr && less(node->datum, node->left->datum)) ||
-        (node->right != nullptr && less(node->right->datum, node->datum))) {
+        (node->right != nullptr && less(node->right->datum, node->datum)) || 
+        (node->left != nullptr && node->right != nullptr && !less(node->left->datum, 
+        node->right->datum) && !less(node->right->datum, node->left->datum))) {
       return false;
     }
 
@@ -605,4 +622,4 @@ std::ostream &operator<<(std::ostream &os,
   return os << "]";
 }
 
-#endif
+#endif // DO NOT REMOVE!!
